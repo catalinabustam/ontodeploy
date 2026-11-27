@@ -1,0 +1,9 @@
+OWL 2 DL Profile Report: Ontology and imports closure NOT in profile. The following violations are present:
+Use of undeclared annotation property: <http://purl.org/dc/terms/contributor> in annotation [Annotation(<http://purl.org/dc/terms/contributor> "Dave Beckett") in null]
+Use of undeclared annotation property: <http://purl.org/dc/terms/contributor> in annotation [Annotation(<http://purl.org/dc/terms/contributor> "Nikki Rogers") in null]
+Use of undeclared annotation property: <http://purl.org/dc/terms/contributor> in annotation [Annotation(<http://purl.org/dc/terms/contributor> "Participants in W3C's Semantic Web Deployment Working Group.") in null]
+Use of undeclared annotation property: <http://purl.org/dc/terms/creator> in annotation [Annotation(<http://purl.org/dc/terms/creator> "Alistair Miles") in null]
+Use of undeclared annotation property: <http://purl.org/dc/terms/creator> in annotation [Annotation(<http://purl.org/dc/terms/creator> "Sean Bechhofer") in null]
+Use of undeclared annotation property: <http://purl.org/dc/terms/description> in annotation [Annotation(<http://purl.org/dc/terms/description> "An RDF vocabulary for describing the basic structure and content of concept schemes such as thesauri, classification schemes, subject heading lists, taxonomies, 'folksonomies', other types of controlled vocabulary, and also concept schemes embedded in glossaries and terminologies."@en) in null]
+Use of undeclared annotation property: <http://purl.org/dc/terms/title> in annotation [Annotation(<http://purl.org/dc/terms/title> "SKOS Vocabulary"@en) in null]
+Use of reserved vocabulary for class IRI: rdf:List [ObjectPropertyRange(<http://www.w3.org/2004/02/skos/core#memberList> rdf:List) in OntologyID(OntologyIRI(<http://www.w3.org/2004/02/skos/core>) VersionIRI(<null>))]
