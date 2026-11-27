@@ -9,10 +9,9 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema: <https://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix testo: <https://w3id.org/arc/testo/> .
 @prefix vann: <http://purl.org/vocab/vann/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix testo: <https://w3id.org/arc/testo/> .
-
 
 dc:creator a owl:AnnotationProperty .
 
@@ -66,21 +65,24 @@ mod:status a owl:AnnotationProperty .
 
 testo: a owl:Ontology ;
     rdfs:label "Ontostart Test Ontology"@en ;
-    rdfs:comment "The Ontostart Test Ontology."@en ;
     dcterms:alternative "TESTO"@en ;
-    vann:preferredNamespacePrefix "testo" ;
-    vann:preferredNamespaceUri testo: ;
+    dcterms:bibliographicCitation "Unpublished"@en ;
+    dcterms:created "2026-11-27T17:09:26.779964+00:00"^^xsd:dateTime ;
+    dcterms:issued "2026-11-27"^^xsd:date ;
     dcterms:language <http://lexvo.org/id/iso639-1/en> ;
     dcterms:license <https://creativecommons.org/publicdomain/zero/1.0> ;
-    dcterms:bibliographicCitation "Unpublished"@en ;
+    dcterms:modified "2026-11-27T17:09:26.779964+00:00"^^xsd:dateTime ;
     dcterms:title "Ontostart Test Ontology"@en ;
-    dcat:accessURL <https://w3id.org/arc/testo/versions/latest/testo.ttl> ;
+    vann:preferredNamespacePrefix "testo" ;
+    vann:preferredNamespaceUri testo: ;
+    rdfs:comment "The Ontostart Test Ontology."@en ;
     owl:imports <https://w3id.org/sulo/> ;
+    owl:versionIRI testo:0.0.2 ;
+    owl:versionInfo "0.0.2"^^xsd:string ;
+    dcat:accessURL <https://w3id.org/arc/testo/versions/latest/testo.ttl> ;
     mod:definitionProperty rdfs:comment ;
     mod:hasRepresentationLanguage omv:OWL ;
     mod:hasSyntax <http://www.w3.org/ns/formats/Turtle> ;
     mod:prefLabelProperty rdfs:label ;
-    owl:versionInfo "0.0.1"^^xsd:string ;
-    owl:versionIRI <https://w3id.org/arc/testo/0.0.1> ;
     mod:status "active" .
 
