@@ -1,0 +1,26 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+<https://w3id.org/arc/> a dcat:Catalog ;
+    dcterms:title "arc ontologies" ;
+    dcat:dataset <https://w3id.org/arc/testo/> .
+
+<https://w3id.org/arc/testo/> a dcat:Dataset ;
+    dcterms:description "The Ontostart Test Ontology." ;
+    dcterms:title "Ontostart Test Ontology" ;
+    owl:versionInfo "0.0.2" ;
+    dcat:distribution [ a dcat:Distribution ;
+            dcat:downloadURL <https://catalinabustam.github.io/ontodeploy/testo/versions/latest/testo.jsonld> ;
+            dcat:mediaType "application/ld+json" ],
+        [ a dcat:Distribution ;
+            dcat:downloadURL <https://catalinabustam.github.io/ontodeploy/testo/versions/latest/testo.nt> ;
+            dcat:mediaType "application/n-triples" ],
+        [ a dcat:Distribution ;
+            dcat:downloadURL <https://catalinabustam.github.io/ontodeploy/testo/versions/latest/testo.owl> ;
+            dcat:mediaType "application/rdf+xml" ],
+        [ a dcat:Distribution ;
+            dcat:downloadURL <https://catalinabustam.github.io/ontodeploy/testo/versions/latest/testo.ttl> ;
+            dcat:mediaType "text/turtle" ] ;
+    dcat:landingPage <https://catalinabustam.github.io/ontodeploy/testo/> .
+

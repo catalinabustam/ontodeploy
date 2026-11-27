@@ -1,0 +1,14 @@
+{
+  "name": "testo",
+  "path": "testo",
+  "status": "stable",
+  "title": "Ontostart Test Ontology",
+  "description": "The Ontostart Test Ontology.",
+  "iri": "https://w3id.org/arc/testo/",
+  "version": "0.0.2",
+  "versions": [
+    "0.0.2"
+  ],
+  "modified": "2026-11-27T17:09:26.779964+00:00",
+  "source": "https://github.com/catalinabustam/ontodeploy/tree/main/ontologies/testo"
+}

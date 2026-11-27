@@ -1,0 +1,122 @@
+[
+  {
+    "@id": "_:dist-testo-jsonld",
+    "@type": [
+      "http://www.w3.org/ns/dcat#Distribution"
+    ],
+    "http://www.w3.org/ns/dcat#downloadURL": [
+      {
+        "@id": "https://catalinabustam.github.io/ontodeploy/testo/versions/latest/testo.jsonld"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#mediaType": [
+      {
+        "@value": "application/ld+json"
+      }
+    ]
+  },
+  {
+    "@id": "_:dist-testo-nt",
+    "@type": [
+      "http://www.w3.org/ns/dcat#Distribution"
+    ],
+    "http://www.w3.org/ns/dcat#downloadURL": [
+      {
+        "@id": "https://catalinabustam.github.io/ontodeploy/testo/versions/latest/testo.nt"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#mediaType": [
+      {
+        "@value": "application/n-triples"
+      }
+    ]
+  },
+  {
+    "@id": "_:dist-testo-owl",
+    "@type": [
+      "http://www.w3.org/ns/dcat#Distribution"
+    ],
+    "http://www.w3.org/ns/dcat#downloadURL": [
+      {
+        "@id": "https://catalinabustam.github.io/ontodeploy/testo/versions/latest/testo.owl"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#mediaType": [
+      {
+        "@value": "application/rdf+xml"
+      }
+    ]
+  },
+  {
+    "@id": "_:dist-testo-ttl",
+    "@type": [
+      "http://www.w3.org/ns/dcat#Distribution"
+    ],
+    "http://www.w3.org/ns/dcat#downloadURL": [
+      {
+        "@id": "https://catalinabustam.github.io/ontodeploy/testo/versions/latest/testo.ttl"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#mediaType": [
+      {
+        "@value": "text/turtle"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/arc/",
+    "@type": [
+      "http://www.w3.org/ns/dcat#Catalog"
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "arc ontologies"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#dataset": [
+      {
+        "@id": "https://w3id.org/arc/testo/"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/arc/testo/",
+    "@type": [
+      "http://www.w3.org/ns/dcat#Dataset"
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@value": "The Ontostart Test Ontology."
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "Ontostart Test Ontology"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#versionInfo": [
+      {
+        "@value": "0.0.2"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#distribution": [
+      {
+        "@id": "_:dist-testo-ttl"
+      },
+      {
+        "@id": "_:dist-testo-jsonld"
+      },
+      {
+        "@id": "_:dist-testo-nt"
+      },
+      {
+        "@id": "_:dist-testo-owl"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#landingPage": [
+      {
+        "@id": "https://catalinabustam.github.io/ontodeploy/testo/"
+      }
+    ]
+  }
+]

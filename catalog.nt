@@ -1,0 +1,24 @@
+<https://w3id.org/arc/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Catalog> .
+<https://w3id.org/arc/> <http://purl.org/dc/terms/title> "arc ontologies" .
+<https://w3id.org/arc/> <http://www.w3.org/ns/dcat#dataset> <https://w3id.org/arc/testo/> .
+<https://w3id.org/arc/testo/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://w3id.org/arc/testo/> <http://purl.org/dc/terms/title> "Ontostart Test Ontology" .
+<https://w3id.org/arc/testo/> <http://purl.org/dc/terms/description> "The Ontostart Test Ontology." .
+<https://w3id.org/arc/testo/> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.2" .
+<https://w3id.org/arc/testo/> <http://www.w3.org/ns/dcat#landingPage> <https://catalinabustam.github.io/ontodeploy/testo/> .
+<https://w3id.org/arc/testo/> <http://www.w3.org/ns/dcat#distribution> _:dist-testo-ttl .
+<https://w3id.org/arc/testo/> <http://www.w3.org/ns/dcat#distribution> _:dist-testo-jsonld .
+<https://w3id.org/arc/testo/> <http://www.w3.org/ns/dcat#distribution> _:dist-testo-nt .
+<https://w3id.org/arc/testo/> <http://www.w3.org/ns/dcat#distribution> _:dist-testo-owl .
+_:dist-testo-ttl <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Distribution> .
+_:dist-testo-ttl <http://www.w3.org/ns/dcat#downloadURL> <https://catalinabustam.github.io/ontodeploy/testo/versions/latest/testo.ttl> .
+_:dist-testo-ttl <http://www.w3.org/ns/dcat#mediaType> "text/turtle" .
+_:dist-testo-jsonld <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Distribution> .
+_:dist-testo-jsonld <http://www.w3.org/ns/dcat#downloadURL> <https://catalinabustam.github.io/ontodeploy/testo/versions/latest/testo.jsonld> .
+_:dist-testo-jsonld <http://www.w3.org/ns/dcat#mediaType> "application/ld+json" .
+_:dist-testo-nt <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Distribution> .
+_:dist-testo-nt <http://www.w3.org/ns/dcat#downloadURL> <https://catalinabustam.github.io/ontodeploy/testo/versions/latest/testo.nt> .
+_:dist-testo-nt <http://www.w3.org/ns/dcat#mediaType> "application/n-triples" .
+_:dist-testo-owl <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Distribution> .
+_:dist-testo-owl <http://www.w3.org/ns/dcat#downloadURL> <https://catalinabustam.github.io/ontodeploy/testo/versions/latest/testo.owl> .
+_:dist-testo-owl <http://www.w3.org/ns/dcat#mediaType> "application/rdf+xml" .
