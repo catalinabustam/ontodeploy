@@ -1,6 +1,6 @@
 # Opens a pull request against perma-id/w3id.org with this collection's
-# redirects (apache/web/CHANGEME/), using the reusable OntoStart workflow.
-# `ontostart init` replaces CHANGEME below with your w3id name.
+# redirects (apache/web/arc/), using the reusable OntoStart workflow.
+# `ontostart init` replaces arc below with your w3id name.
 name: Propose w3id.org redirects
 
 on:
@@ -30,9 +30,9 @@ jobs:
   w3id-pr:
     uses: micheldumontier/ontostart/.github/workflows/w3id-pr.yml@v1.10
     with:
-      W3ID_FOLDER: CHANGEME
-      SOURCE_HTACCESS_PATH: apache/web/CHANGEME/.htaccess
-      SOURCE_README_PATH: apache/web/CHANGEME/README.md
+      W3ID_FOLDER: arc
+      SOURCE_HTACCESS_PATH: apache/web/arc/.htaccess
+      SOURCE_README_PATH: apache/web/arc/README.md
       W3ID_FORK_OWNER: ${{ inputs.W3ID_FORK_OWNER }}
       COMMIT_MESSAGE: ${{ inputs.COMMIT_MESSAGE }}
       PR_TITLE: ${{ inputs.PR_TITLE }}
